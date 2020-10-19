@@ -22,6 +22,7 @@ client.on('ready',()=>{
     let statuses = [
         " play.berserk-mc.com ",
         
+        
     ]
     setInterval(function(){
             let status = statuses[Math.floor(Math.random() * statuses.length)];
