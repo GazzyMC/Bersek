@@ -1,8 +1,14 @@
 {
-    "name": "myapp",
-    "description": "a really cool app",
-    "version": "1.0.0",
+    "name": "discord-1337-bot",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "eris": "^0.7.2"
+    },
     "engines": {
-      "node": "12.x"
+      "node": "8.x"
     }
   }
